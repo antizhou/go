@@ -44,3 +44,10 @@ func Substr(str string, start int, end int) string {
 
 	return string(rs[start:end])
 }
+
+func IsEmpty(s string) bool {
+	if s == "" || len(s) == 0 {
+		return true
+	}
+	return false
+}
